@@ -1,0 +1,33 @@
+variavel,descricao,tipo,valores
+act_id,Número do ACT (ex.: 59/2025),texto,
+objeto,Objeto resumido do acordo,texto,
+documento_extrato,1 se o portal disponibilizava apenas o extrato,binária,0; 1
+D1_1,Plano de trabalho conjunto,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D1_2,Obrigações recíprocas,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D1_3,Instâncias de coordenação,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D1_4,Regras de alteração/revisão,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D1_5,Resolução de conflitos,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D2_1,Número e diversidade de partícipes,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D2_2,Possibilidade de adesão,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D2_3,Compartilhamento de recursos,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D2_4,Papel do órgão líder,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D3_1,Identificação de beneficiários,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D3_2,Inclusão de sociedade civil/entes subnacionais,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D3_3,Regras de participação,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D3_4,Capacitação/coprodução,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D4_1,Presença de atores não governamentais,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D4_2,Regras de propriedade intelectual,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D4_3,Uso de marca/dados/comunicação,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D4_4,Ausência de remuneração,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D5_1,Resultados esperados explicitados,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D5_2,Indicadores de acompanhamento,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D5_3,Relatórios finais previstos,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D5_4,Continuidade pós-vigência,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+D5_5,Desenvolvimento de capacidades,ordinal,0 = ausente; 1 = menção genérica; 2 = previsão explícita; 3 = previsão detalhada
+soma_D1,Soma dos indicadores da dimensão D1 – Governança colaborativa,inteiro,
+soma_D2,Soma dos indicadores da dimensão D2 – Governança em redes,inteiro,
+soma_D3,Soma dos indicadores da dimensão D3 – Gestão de stakeholders,inteiro,
+soma_D4,Soma dos indicadores da dimensão D4 – Parcerias intersetoriais e arranjos híbridos,inteiro,
+soma_D5,Soma dos indicadores da dimensão D5 – Criação de valor público,inteiro,
+escore_total,Soma dos 22 indicadores,inteiro,0–66
+perfil,Perfil atribuído pela análise de clusters,categórica,A = implementação de política pública em rede; B = híbrido orientado a resultados; C = adesão padronizada; D = execução operacional

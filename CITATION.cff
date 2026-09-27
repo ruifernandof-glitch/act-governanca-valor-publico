@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se utilizar estes dados ou códigos, cite conforme abaixo."
+title: "Governança e valor público em acordos de cooperação técnica federais – dados e códigos"
+type: dataset
+version: "1.0.0"
+date-released: "2026-09-27"
+license: CC-BY-4.0
+authors:
+  - family-names: "Ferreira"
+    given-names: "Rui Fernando Correia"
+    orcid: "https://orcid.org/0000-0001-8724-4267"
+    affiliation: "Centro Universitário Unihorizontes"
+  - family-names: "Menezes"
+    given-names: "João Paulo Calembo Batista"
+    orcid: "https://orcid.org/0000-0002-4739-839X"
+    affiliation: "Universidade Federal dos Vales do Jequitinhonha e Mucuri"
+  - family-names: "Souza Junior"
+    given-names: "Wesley Canedo de"
+    orcid: "https://orcid.org/0000-0001-5042-0984"
+    affiliation: "Universidade Federal do Rio Grande do Norte"
+keywords:
+  - "acordos de cooperação técnica"
+  - "governança colaborativa"
+  - "valor público"
+  - "k-means"
