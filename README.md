@@ -37,4 +37,4 @@ Dados e documentação: CC BY 4.0. Código: MIT.
 
 ## Como citar
 
-Ver `CITATION.cff` ou o registro no Zenodo (DOI: 10.5281/zenodo.XXXXXXX).
+Ver `CITATION.cff` ou o registro no Zenodo (DOI: 10.5281/zenodo.23002818).
